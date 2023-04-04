@@ -68,3 +68,14 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  justify-content: flex-end;
+}
+
+.container .element {
+  max-width: 8%;
+}
