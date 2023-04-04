@@ -10,7 +10,7 @@ img {
 }
 
 body {
-  font-family: helvetica;  
+  font-family: 'Covered By Your Grace', cursive;
 }
 
 .chat-container {
@@ -28,18 +28,20 @@ body {
   margin-bottom: 10px;
   width: 75%;
   margin: 0 25px 25px;
+  text-transform: uppercase;
 }
 
 .message-box .message-content {
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 0;
+  box-shadow: 5px 5px black;
 }
 
 
 .message-hour {
   margin: 5px 0 0 0;
-  font-size: 10px;
+  font-size: 15px;
 }
 
 .message-box-eden .message-content {
