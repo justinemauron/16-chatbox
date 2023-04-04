@@ -16,9 +16,8 @@ body {
 .chat-container {
   max-width: 300px;
   margin: auto;
-  border: 1px solid black;
   box-shadow: 0 0 5px #3333;
-  padding: 0;
+  padding: 20px 10px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -46,7 +45,7 @@ body {
 
 .message-box-eden .message-content {
   background: white;
-  padding: 10px;
+  padding: 5px;
 }
 
 .message-box-eden {
@@ -59,13 +58,14 @@ body {
 }
 
 .chat-form {
-  background: #333;
+  background: black;
   width: 100%;
   padding: 5px;
   box-sizing: border-box;
   position: sticky;
   bottom: 0;
   display: flex;
+  border-radius: 5px;
   justify-content: space-between;
 }
 
@@ -78,4 +78,42 @@ body {
 
 .container .element {
   max-width: 8%;
+  filter: invert(100%);
+}
+
+.container-adele {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+header p {
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+.container-adele .element-pp {
+  max-width: 15%;
+}
+
+.container, .container-adele, .container-online {
+  background-color: #333;
+}
+
+.element-back, 
+.element-name {
+  font-size: 30px;
+  color: white;
+}
+
+.element-online {
+  font-size: 15px;
+  color: white;
+}
+
+.container-online {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
 }
